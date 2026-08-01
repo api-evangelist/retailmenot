@@ -1,8 +1,25 @@
 aid: retailmenot
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/retailmenot.png
 name: RetailMeNot *
-description: 'RetailMeNot * is a company surfaced as a portfolio company of gv, norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'RetailMeNot is a consumer savings destination that aggregates coupons, promo
+  codes, cash-back offers, and deals from thousands of retailers and brands, helping shoppers
+  in the United States save money when they buy online and in-store. It operates a website,
+  mobile apps, and browser extensions that surface verified discount codes and cash-back at
+  checkout, and it monetizes through retailer affiliate relationships rather than a self-serve
+  developer platform. As of this profile RetailMeNot publishes no public developer API, OpenAPI,
+  or documentation surface; probing found no reachable developer portal or well-known discovery
+  documents, and partner activity is handled through whitelabel affiliate infrastructure.'
 url: https://raw.githubusercontent.com/api-evangelist/retailmenot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Coupons
+- Deals
+- Cashback
+- Savings
+- Shopping
+- Retail
+- Ecommerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/retailmenot-domain-security.yml
 - type: Website
   url: http://retailmenot.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
