@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/retailmenot/integrations
+- https://n8n.io/integrations/retailmenot/
+- https://composio.dev/toolkits/retailmenot
+- https://monid.ai/tools/retailmenot
+checked:
+- https://composio.dev/toolkits/retailmenot
+- https://monid.ai/tools/retailmenot
+- https://n8n.io/integrations/retailmenot/
+- https://zapier.com/apps/retailmenot/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
