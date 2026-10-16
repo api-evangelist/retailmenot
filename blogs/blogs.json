@@ -1,0 +1,21 @@
+{
+  "repo": "retailmenot",
+  "feeds": [
+    {
+      "source": "https://www.retailmenot.com/blog/",
+      "feed_url": "https://retailmenot.com/blog/feed",
+      "title": "",
+      "saved": 8,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.retailmenot.com/blog/feed",
+      "feed_url": "https://www.retailmenot.com/blog/feed",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    }
+  ],
+  "post_count": 8,
+  "fetched": "2026-10-10T13:15:00Z"
+}
